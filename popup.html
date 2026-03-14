@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 250px;
+      padding: 16px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f9fafb;
+      color: #111827;
+      margin: 0;
+    }
+    h3 {
+      margin-top: 0;
+      margin-bottom: 16px;
+      font-size: 16px;
+      text-align: center;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      background-color: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 500;
+      transition: background-color 0.2s;
+    }
+    button:hover {
+      background-color: #2563eb;
+    }
+    button.secondary {
+      background-color: #10b981;
+    }
+    button.secondary:hover {
+      background-color: #059669;
+    }
+    .footer {
+      font-size: 12px;
+      text-align: center;
+      color: #6b7280;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Tab Session Exporter</h3>
+  <button id="exportBtn">Export to CSV</button>
+  <button id="importBtn" class="secondary">Import from CSV</button>
+  <div class="footer">Chrome & Firefox</div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Session Exporter",
+  "version": "1.0",
+  "description": "Export and import open tabs to/from CSV.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Tab Session Exporter"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "tab-exporter@example.com",
+      "strict_min_version": "109.0"
+    }
+  }
+}
